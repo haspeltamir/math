@@ -83,6 +83,7 @@ public class Expression {
         if (!isValidExpression) {
             return null;
         }
+        ////
         String[] expArray = getPreppedString(exp).split("\\s+");
         boolean isStartingWithNumericValue = isNumericValue(expArray[0]);
         ArrayList<Object> parsedExpression = new ArrayList<Object>();//polymorphysem
